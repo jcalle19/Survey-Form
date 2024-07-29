@@ -1,0 +1,98 @@
+body {
+    background-color: black;
+    font-family: Courier;
+  }
+  h1 {
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 0;
+    font-size: 50px;
+    background: linear-gradient(45deg, cyan, rgb(0,127,255), pink);
+  }
+  
+  input[type="text"], input[type="number"], input[type="email"]{
+    margin: 0.5em;
+    background: linear-gradient(45deg, cyan, rgb(0,127,255), pink);
+    color: black;
+    border-width: 1px;
+    border-color: blue;
+    border-radius: 20px;
+    padding: 0 10px; 
+    height: 25px;
+    
+  }
+  
+  input:hover {
+    border-color: white;
+  }
+  
+  ::placeholder {
+    color: black;
+    font-family: Courier;
+    font-size: 15px;
+    opacity: 1;
+    text-align: center;
+  }
+  fieldset {
+    display: block;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  #name-label {
+    max-width: 262px;
+  }
+  
+  #number-label {
+    max-width: 149px;
+  }
+  
+  #email-label {
+    max-width: 272px;
+  }
+  
+  #dropdown-label {
+    max-width: 418px;
+  }
+  input[type="radio"], input[type="checkbox"] {
+    vertical-align: -2px;
+    margin: 8px;
+  }
+  
+  select {
+    height: 25px;
+    border-radius: 20px;
+    padding-left: 5px;
+    background: linear-gradient(45deg, cyan, rgb(0,127,255), pink);
+    border-width: 1px;
+    border-color: blue;
+    font-family: Courier;
+  }
+  
+  select:hover {
+    border-color: white;
+  }
+  
+  #submit {
+    background: linear-gradient(45deg, cyan, rgb(0,127,255), pink);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 45%;
+    font-family: Courier;
+    font-size: 20px;
+  }
+  
+  fieldset {
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+  }
+  
+  
